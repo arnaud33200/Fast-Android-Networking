@@ -66,4 +66,6 @@ public interface RequestBuilder {
 
     RequestBuilder setUserAgent(String userAgent);
 
+    ANRequest build();
+
 }
